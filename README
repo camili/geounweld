@@ -1,0 +1,9 @@
+Geodesic Unwelding Algorithm
+
+The implementation of this project is distributed across three files. It implements a simple Object Oriented wrapper of the MPC library to reduce the complexity of the code and to be able to use arithmetic operators.
+
+mpcomplex.cpp and mpcomplex.h - Implementation of the C++ Class.
+
+geounweld.cpp - Implementation of the algorithm and output.
+
+This project depends on the MPC library available on http://www.multiprecision.org/. 
