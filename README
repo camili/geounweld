@@ -8,3 +8,13 @@ geounweld.cpp - Implementation of the algorithm and output.
 
 This project depends on the MPC library available on http://www.multiprecision.org/. The makefile assumes that the MPC library is already installed and in the /usr/local/lib/ directory. 
 
+To create a binary run the make command on a terminal.
+
+You can use this command to run the geounweld program:
+
+./geounweld 5 100 bdata.ga bdata_results
+
+5 corresponds to the number of intermediate points. It defaults to 5
+20 corresponds to the number of precision bits in the computations. It defaults to 100.
+bdata.ga corresponds to the input file. It defaults to bdata.ga
+bdata_results is the folder where the results files are going to be generated. It defaults to results.
