@@ -1,5 +1,5 @@
 mpcomplex.o : mpcomplex.cpp mpcomplex.h
-	gcc -o mpcomplex.o mpcomplex.cpp -L /usr/local/lib/*.a 
+	gcc -c -o mpcomplex.o mpcomplex.cpp
 
 geounweld : geounweld.cpp mpcomplex.o
 	gcc -o geounweld geounweld.cpp -L /usr/local/lib/*.a -L mpcomplex.o
