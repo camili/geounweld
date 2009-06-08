@@ -6,4 +6,5 @@ mpcomplex.cpp and mpcomplex.h - Implementation of the C++ Class.
 
 geounweld.cpp - Implementation of the algorithm and output.
 
-This project depends on the MPC library available on http://www.multiprecision.org/. 
+This project depends on the MPC library available on http://www.multiprecision.org/. The makefile assumes that the MPC library is already installed and in the /usr/local/lib/ directory. 
+
